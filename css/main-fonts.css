@@ -1,0 +1,79 @@
+body {
+    box-sizing: border-box;
+    background-image: url(../assets/banner.jpg);
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-content {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    width: 52%;
+    height: 52%;
+    margin-left: 6%;
+    margin-top: 8%;
+}
+
+.main-content span {
+    font-family: Manrope, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1A1E1C;
+    background-color: #FFF;
+    border-radius: 16px;
+    border: 1px solid #B7B7B7;
+    padding: 8px 16px;
+    position: absolute;
+    right: 332px;
+    top: 55px;
+}
+
+.main-tittle {
+    font-family: Montserrat Alternates, Arial, sans-serif;
+    font-size: 104px;
+    font-weight: 700;
+    color: #9DFF9D;
+    /* background: linear-gradient(136deg, #9DFF9D 97.92%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.main-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Manrope, Arial, sans-serif;
+    background-color: #FFF;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 16px 24px;
+}
+
+.main-button.-bgGreen {
+    background: linear-gradient(134deg, #2BB32A 0%, #3D544D 100%);
+    color: #FFF;
+}
+.main-button.-unique {
+    font-family: Poppins, Arial, sans-serif;
+    font-weight: 500;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 16px;
+    width: 300px;
+}
